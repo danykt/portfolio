@@ -339,5 +339,23 @@ mix-blend-mode: normal;
   line-height: 25px;
   font-family: 'Nunito', sans-serif;
   margin-bottom: 20px;
-   
+}
+
+@media only screen and (max-width: 1200px){
+  .description-section{
+    margin: 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .bordered-big-box{
+    width: 100%;
+  }
+
+  .description-section{
+ 
+  }
+
 }
