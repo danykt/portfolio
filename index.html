@@ -14,21 +14,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
+  <script type="module" src="JavaScript/Index.js" defer></script>
 
   <!-- First Section TOP SECTION WELCOME -->
   <div class="welcome-photo-container">
     <div class="content-container">
 
+      <div class="ui modal">
+        <div class="header">Header</div>
+        <div class="scrolling content">
+          <p>Very long content goes here</p>
+        </div>
+      </div>
+
 
       <div class="ui grid">
         <div class="six wide column" id="desktop_animation">
-          <div class="tarjeta" id="desktop_welcome">
+          <div class="tarjeta">
 
 
-            <div class="greeting-header">
-              Greetings! I'm Cesar, and I'm thrilled to have you here. This digital space is a curated collection of
-              my professional journey and personal projects, providing a glimpse into my world of creativity and
-              expertise.</div>
+            <div class="greeting-header" id="greeting_desktop">
+              </div>
             <!-- <img class="ui centered medium bordered image" src="../Images/mobile_vector.png"> -->
 
             <img width="100%"
@@ -39,16 +45,14 @@
         </div>
 
         <div class="sixteen wide column" id="mobile_animation">
-          <div class="tarjeta" id="desktop_welcome">
+          <div class="tarjeta">
 
 
-            <div class="greeting-header">
-              Greetings! I'm Cesar, and I'm thrilled to have you here. This digital space is a curated collection of
-              my professional journey and personal projects, providing a glimpse into my world of creativity and
-              expertise.</div>
+            <div class="greeting-header" id="greeting_mobile">
+              </div>
             <!-- <img class="ui centered medium bordered image" src="../Images/mobile_vector.png"> -->
 
-            <img width="70%"
+            <img width="60%"
             src="Images/mobile_animated.gif"/>
           </div>
 
@@ -540,12 +544,22 @@
             </div>
           </div>
         </div>
+
+        <!--PROJECTS-->
         <div class="sixteen wide column">
           <div class="tarjeta">
             <div class="ui three stackable cards">
               <div class="card">
                 <div class="image">
                   <img src="./Images/android_city.jpg">
+
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ui inverted button">Add Friend</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="card">
@@ -558,7 +572,7 @@
                   <img src="./Images/productive_developer.jpg">
                 </div>
               </div>
-<div class="card">
+              <div class="card">
                 <div class="image">
                   <img src="./Images/android_city.jpg">
                 </div>
